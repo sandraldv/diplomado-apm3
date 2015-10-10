@@ -1,0 +1,76 @@
+10/10/2015
+
+*ver tutorial de esto..
+Utilizar comillas sencillas para javascript.
+utilizar ; al finalizar una sentencia
+
+en el repositorio del profe (para preguntas)
+-->issues 
+--->new issues
+
+
+sheets (ayudas basicas)
+
+OBJETOS Y FUNCIONES EN JAVASCRIPT
+
+una funcion, un arreglo es un objeto.
+
+objeto = { clave: valor}
+
+a:'1'-->Dato tipo String
+b:1 --> Dato Entero
+
+
+funciones: cumplen una tarea especifica (un objecto)
+
+
+
+hay funciones anonimas:
+var bye_bye=function(){}
+
+--ELEMENTOS DE COMPARACION Y ELEMENTOS DE CONTROL
+
+*correccion de tipo(==)
+*Utilizar comparaciones estrictas (===)
+
+LOOPS Y SALTOS EN JAVA SCRIPT
+
+
+JQUERY
+
+Herramienta para simplificar JS
+manipular el DOM  de HTML
+Animaciones
+Es extensible
+Manejo de eventos: clic, locus, hovers, 
+comunicacion.
+
+libreria para simplificar el java script
+
+CDN = CONTENT  DEILIVERY NETWORK 
+CORS = CROSS ORIGIN RESOURCE ---
+
+
+$  (selector).addclass('class')
+obj id class   metodo   atributo nombre de la clase
+jquery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
