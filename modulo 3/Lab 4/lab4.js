@@ -4,7 +4,7 @@ var my_object = new Object();
 
 my_object = {
   a:1,
-  b:2,
+  b:2,  
   
   
 };
