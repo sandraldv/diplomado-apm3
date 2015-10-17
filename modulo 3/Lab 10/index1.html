@@ -6,9 +6,10 @@
 </head>
 <body>
 	<div ng-app>
-		<h1>Sample Application</h1>
+		<h1>Ejercicio</h1>
 		<p>Enter your Name: <input  type="text" ng-model="my_name" /></p>
-		<p> Hello <span ng-bind="my_name"></span> !</p>
+		<p ng-bind="my_name | uppercase"> Hello </p>
+		<span ng-bind="my_name | uppercase">Hello </span>
 	</div>
 	<script type="text/javascript"src="../assets/angular.min.js"></script>
 </body>

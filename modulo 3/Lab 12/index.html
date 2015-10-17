@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="lab12controller">
+<head>
+	<title>AngularJS First Application</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div ng-controller="controllerOne">
+		
+			<p ng-show="revealDiv"> AngularJS was designed from ground up to be testable. It encourages behavior-view separation, comes pre-bundled with mocks, and takes full advantage of dependency injection. It also comes with end-to-end scenario runner which eliminates test flakiness by understanding the inner workings of AngularJS. </p>
+		
+
+		<button ng-click="controlButton()" ng-show="revealButton"> Hide </button>
+
+		<button ng-click="controlButton()" ng-show="revealDiv"> Back </button>
+
+	</div>
+	
+
+
+
+	<script type="text/javascript" src="../assets/angular.min.js"></script>
+
+	<script type="text/javascript">
+
+	angular.module('lab12controller', [])
+		   .controller('controllerOne', function($scope){
+		   		$scope.revealDiv = false;
+		   		$scope.revealButton = true;
+
+		   		$scope.controlButton = function(){
+		   			$scope.revealDiv = true;
+		   			$scope.revealButton = false;
+
+		   			
+		   		};
+
+		   });
+	</script>
+
+
+</body>
+</html>
